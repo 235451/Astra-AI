@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@keyframes border-pulse-cyan {
+  0%, 100% {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 0 6px rgba(56, 189, 248, 0.15);
+  }
+  50% {
+    border-color: rgba(56, 189, 248, 1);
+    box-shadow: 0 0 16px rgba(56, 189, 248, 0.5);
+  }
+}
+
+@keyframes border-pulse-amber {
+  0%, 100% {
+    border-color: rgba(245, 158, 11, 0.4);
+    box-shadow: 0 0 6px rgba(245, 158, 11, 0.15);
+  }
+  50% {
+    border-color: rgba(245, 158, 11, 1);
+    box-shadow: 0 0 16px rgba(245, 158, 11, 0.5);
+  }
+}
+
+@keyframes border-pulse-purple {
+  0%, 100% {
+    border-color: rgba(192, 132, 252, 0.4);
+    box-shadow: 0 0 6px rgba(192, 132, 252, 0.15);
+  }
+  50% {
+    border-color: rgba(192, 132, 252, 1);
+    box-shadow: 0 0 16px rgba(192, 132, 252, 0.5);
+  }
+}
+
+.animate-border-pulse-cyan {
+  animation: border-pulse-cyan 2.2s infinite ease-in-out;
+}
+
+.animate-border-pulse-amber {
+  animation: border-pulse-amber 2.2s infinite ease-in-out;
+}
+
+.animate-border-pulse-purple {
+  animation: border-pulse-purple 2.2s infinite ease-in-out;
+}
+

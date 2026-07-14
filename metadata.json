@@ -1,0 +1,8 @@
+{
+  "name": "ASTRA-X Geospatial Intelligence System",
+  "description": "Real-time Earth observation, weather intelligence, space situational awareness, and AI geospatial analytics platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
